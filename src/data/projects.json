@@ -1,23 +1,30 @@
 [
-    {
-        "name":"Weather App",
-        "description":"Um Aplicativo de previsão do tempo, nele você pode consutar informaçôes do tempo da sua cidade, como temperatura, força do vento, umidade do ar etc, tambem é possivel adicionar cidades a uma lista de favoritos",
-        "link":"",
-        "background":"",
-        "technologies":["JS","React Native","mySql","Node.Js", "Expo"]
-    },
-    {
-        "name":"Anime Jox",
-        "description":"Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
-        "link":"https://github.com/jox404/anime-jox",
-        "background":"",
-        "technologies":["JS","React","Fire Base","Material UI"]
-    },
-    {
-        "name":"Anime Jox",
-        "description":"Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
-        "link":"https://github.com/jox404/anime-jox",
-        "background":"",
-        "technologies":["JS","React","Fire Base","Material UI"]
-    }
+  {
+    "name": "Weather App",
+    "description": "Um Aplicativo de previsão do tempo, nele você pode consutar informaçôes do tempo da sua cidade, como temperatura, força do vento, umidade do ar etc, tambem é possivel adicionar cidades a uma lista de favoritos",
+    "link": "",
+    "background": "https://i.ibb.co/ZYHcNHv/Whats-App-Image-2022-08-10-at-11-29-10-AM.jpg",
+    "technologies": ["JS", "React Native", "mySql", "Node.Js", "Expo"]
+  },
+  {
+    "name": "Anime Jox",
+    "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
+    "link": "https://github.com/jox404/anime-jox",
+    "background": "https://i.ibb.co/NWZG1CZ/Screenshot-from-2022-08-10-11-43-33.png",
+    "technologies": ["JS", "React", "Fire Base", "Material UI"]
+  },
+  {
+    "name": "Anime Jox",
+    "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
+    "link": "https://github.com/jox404/anime-jox",
+    "background": "",
+    "technologies": ["JS", "React", "Fire Base", "Material UI"]
+  },
+  {
+    "name": "Anime Jox",
+    "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
+    "link": "https://github.com/jox404/anime-jox",
+    "background": "",
+    "technologies": ["JS", "React", "Fire Base", "Material UI"]
+  }
 ]

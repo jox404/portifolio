@@ -5,78 +5,35 @@ font-family: 'Ubuntu Mono', monospace;
 
 */
 .cardContainer {
-  background-color: #44475a;
   width: 270px;
   border-radius: 4px;
   padding: 1px 10px 15px 10px;
-  box-shadow: 5px 5px 7px #44475ab9;
+  background-color: #bd93f9;
+  box-shadow: 5px 5px 7px #0000002c;
+}
+.CardDescription {
+  height: 150px;
 }
 
-.imgCardContainer {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
-  height: 300px;
-  justify-content: center;
-  color: #f1fa8c !important;
-}
-.imgCard {
-  flex: 1;
-  width: 270px;
-  border-radius: 5px;
-  transition: 1s;
-}
-.imgCardContainer:hover .imgCard {
-  opacity: 0.3;
-  transition: 1s;
-}
-
-.imgCardDescription {
-  position: absolute;
-  width: 270px;
-  height: 300px;
-  opacity: 0;
-  transition: 0.2s;
-}
-
-.imgCardDescription p {
-  text-align: justify;
-  font-family: "Ubuntu", sans-serif;
-  color: #f8f8f2;
+.CardDescription p {
+  color: #282a36;
   font-size: 18px;
-  margin-right: 10px;
-  margin-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
 }
 
-.imgCardContainer:hover .imgCardDescription {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-.imgCardLink {
-  width: 270px;
-  position: absolute;
-  font-size: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  opacity: 0;
-  transition: 0.5s;
-  height: 300px;
-}
-
-.imgCardLink p,
-svg {
-  margin-bottom: 20px;
-  margin-top: auto;
-}
-.imgCardContainer:hover .imgCardLink {
-  opacity: 1;
-  transition: 0.5s;
+.visitPage p {
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+  color: #ff5555;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  bottom: 0;
 }
 
 h2 {
-  color: #f1fa8cc4;
+  color: #f1fa8c;
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
@@ -99,8 +56,13 @@ h3 {
 }
 
 .tecList p {
-  color: #ff5555;
+  color: #282a36;
   font-size: 15px;
   font-family: "Ubuntu", sans-serif;
   margin: 0px auto;
+}
+
+.gallery h3 {
+  cursor: pointer;
+  color: #6272a4 !important;
 }
