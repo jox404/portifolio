@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300;400&display=swap");
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+.aboutContainer {
+  background-color: #f8f8f2;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.aboutContainer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 50px;
+  text-align: center;
+}
+.aboutTxt {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding-right: 25px;
+  padding-top: 40px;
+  justify-content: start !important;
+}
+
+.aboutTxt p {
+  font-family: "Ubuntu", sans-serif;
+  color: #282a36;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  text-align: justify;
+}
+.imgContainer {
+  margin-left: 25px;
+  border: #f1fa8c solid 5px;
+}
+.imgProfile {
+  width: 400px;
+}

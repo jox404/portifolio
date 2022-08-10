@@ -1,0 +1,54 @@
+.contactContainer {
+  background-color: #44475a;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact h1 {
+  color: #f1fa8c;
+  margin: 25px 0px 25px 0px;
+}
+.contactListLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 0px 40px 0px;
+}
+
+.contactListLinks a {
+  text-decoration: none;
+  background-color: #282a36;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 1s;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contactListLinks a svg {
+  margin: 0px;
+}
+
+.contactListLinks a:hover {
+  background-color: #f8f8f2;
+  transition: 1s;
+}
+
+.contactList {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactList p {
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  color: #f1fa8c;
+  margin: 0px;
+  font-size: 18px;
+}

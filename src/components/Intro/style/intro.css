@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+.containerIntro {
+  flex: 1;
+  background-color: #282a36;
+  display: flex;
+  justify-content: center;
+  color: #f8f8f2;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 0px;
+  padding-top: 100px;
+}
+.intro {
+  flex: 1;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.intro div {
+  max-width: 50%;
+}
+
+.intro h1 {
+  color: #f8f8f2;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.intro p {
+  color: #f8f8f2;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.btnProjects {
+  background-color: #50fa7b;
+  color: #282a36;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: none;
+  width: 130px;
+  transition: 0.5s;
+}
+.btnProjects:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #ffffff;
+}
+
+.profileImage {
+  padding-right: 50px;
+}
+
+.profileImage img {
+  height: 300px;
+  border: solid 15px #44475a;
+}
