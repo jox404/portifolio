@@ -48,7 +48,7 @@ const CardAbilities = (props) => {
           />
         );
         break;
-      case "Html":
+      case "HTML":
         return (
           <ImHtmlFive2
             color="#ff5555"
@@ -57,7 +57,7 @@ const CardAbilities = (props) => {
           />
         );
         break;
-      case "Css":
+      case "CSS":
         return (
           <ImCss3
             color="#ff79c6"

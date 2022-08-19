@@ -11,13 +11,13 @@ const NavBar = (props) => {
       case scrollPosition >= 0 && scrollPosition <= 423:
         return setBgColor("#282a36");
         break;
-      case scrollPosition >= 424 && scrollPosition <= 1009:
-        setBgColor("#ff5555");
+      case scrollPosition >= 424 && scrollPosition <= 1126:
+        setBgColor("#44475a");
         break;
-      case scrollPosition >= 1010 && scrollPosition <= 1367:
+      case scrollPosition >= 1127 && scrollPosition <= 1482:
         setBgColor("#ffb86c");
         break;
-      case scrollPosition >= 1368:
+      case scrollPosition >= 1483:
         setBgColor("#44475a");
         break;
     }
@@ -47,13 +47,13 @@ const NavBar = (props) => {
             <span />
           </div>
           <div className="links">
-            <a href="#abilities" onClick={() => scrollTo(1010)}>
+            <a href="#abilities" onClick={() => scrollTo(1127)}>
               Habilidades
             </a>
             <span />
           </div>
           <div className="links">
-            <a href="#about1" onClick={() => scrollTo(1368)}>
+            <a href="#about1" onClick={() => scrollTo(1483)}>
               Sobre Min
             </a>
             <span />

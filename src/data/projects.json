@@ -1,30 +1,47 @@
 [
   {
-    "name": "Weather App",
+    "name": "WeatherApp",
     "description": "Um Aplicativo de previsão do tempo, nele você pode consutar informaçôes do tempo da sua cidade, como temperatura, força do vento, umidade do ar etc, tambem é possivel adicionar cidades a uma lista de favoritos",
     "link": "",
-    "background": "https://i.ibb.co/ZYHcNHv/Whats-App-Image-2022-08-10-at-11-29-10-AM.jpg",
+    "images": [
+      "https://i.ibb.co/g3BHPGz/Whats-App-Image-2022-08-18-at-8-07-41-PM.jpg",
+      "https://i.ibb.co/zX45v1r/Whats-App-Image-2022-08-18-at-4-22-32-PM-1.jpg",
+      "https://i.ibb.co/pPr82TV/Whats-App-Image-2022-08-18-at-4-22-28-PM-1.jpg",
+      "https://i.ibb.co/hfxgTw1/Whats-App-Image-2022-08-18-at-4-22-31-PM-1.jpg",
+      "https://i.ibb.co/xf3ZS73/Whats-App-Image-2022-08-18-at-4-22-30-PM-1.jpg",
+      "https://i.ibb.co/Yb2xtQ4/Whats-App-Image-2022-08-18-at-4-22-32-PM.jpg",
+      "https://i.ibb.co/0Y8r9G7/Whats-App-Image-2022-08-18-at-4-22-31-PM.jpg"
+    ],
     "technologies": ["JS", "React Native", "mySql", "Node.Js", "Expo"]
   },
   {
-    "name": "Anime Jox",
+    "name": "AnimeJox",
     "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
     "link": "https://github.com/jox404/anime-jox",
-    "background": "https://i.ibb.co/NWZG1CZ/Screenshot-from-2022-08-10-11-43-33.png",
+    "images": [
+      "https://i.ibb.co/NWZG1CZ/Screenshot-from-2022-08-10-11-43-33.png",
+      "https://i.ibb.co/VM02Rnc/Whats-App-Image-2022-08-18-at-4-22-26-PM.jpg",
+      "https://i.ibb.co/Ykv8Pyw/Whats-App-Image-2022-08-18-at-4-22-27-PM.jpg",
+      "https://i.ibb.co/D1JYcsV/Whats-App-Image-2022-08-18-at-4-22-28-PM.jpg",
+      "https://i.ibb.co/wrTq8Q7/Whats-App-Image-2022-08-18-at-4-22-29-PM-1.jpg",
+      "https://i.ibb.co/yhdCjPN/Whats-App-Image-2022-08-18-at-4-22-30-PM.jpg"
+    ],
     "technologies": ["JS", "React", "Fire Base", "Material UI"]
   },
   {
-    "name": "Anime Jox",
-    "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
-    "link": "https://github.com/jox404/anime-jox",
-    "background": "",
-    "technologies": ["JS", "React", "Fire Base", "Material UI"]
-  },
-  {
-    "name": "Anime Jox",
-    "description": "Uma wiki de animes, nela é posivel buscar insformaçãoes de diversos animes, criar uma conta e classificar esses animes colocandos em lista de favoritos, acompanhado, dropados etc.",
-    "link": "https://github.com/jox404/anime-jox",
-    "background": "",
-    "technologies": ["JS", "React", "Fire Base", "Material UI"]
+    "name": "BolsaDeAtletas",
+    "description": "Uma Landing page, para a apresentação e divulgação de um serviço. não posso divulgar o código, porque não tenho a autorização da empresa que contratou o serviço.",
+    "link": "private",
+    "images": [
+      "https://i.ibb.co/bds6KBK/Screenshot-from-2022-08-18-20-47-49.png",
+      "https://i.ibb.co/PZ7pqCy/Screenshot-from-2022-08-18-20-47-59.png",
+      "https://i.ibb.co/rtfcQpy/Screenshot-from-2022-08-18-20-48-06.png",
+      "https://i.ibb.co/t4ZVJ8B/Screenshot-from-2022-08-18-20-48-11.png",
+      "https://i.ibb.co/NrBKwcB/Screenshot-from-2022-08-18-20-48-59.png",
+      "https://i.ibb.co/Yhkd79C/Screenshot-from-2022-08-18-20-49-55.png",
+      "https://i.ibb.co/5G53wL4/Screenshot-from-2022-08-18-20-49-30.png",
+      "https://i.ibb.co/ZGHd5k2/Screenshot-from-2022-08-18-20-49-11.png"
+    ],
+    "technologies": ["JS", "React", "CSS", "Material UI"]
   }
 ]

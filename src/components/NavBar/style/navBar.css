@@ -9,7 +9,7 @@ font-family: 'Shadows Into Light', cursive; */
   justify-content: center;
   color: #f8f8f2;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   transition: 0.5s;
 }
 .navBar {

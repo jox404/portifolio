@@ -1,0 +1,28 @@
+.containerImg {
+  position: relative;
+  height: 400px;
+  display: flex !important;
+  justify-content: center !important;
+}
+.containerImg img {
+  position: relative;
+  height: 100%;
+  object-fit: contain;
+}
+
+.legendImg {
+  text-align: center;
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f8f2;
+  color: #282a36;
+  bottom: 15%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.containerImg:hover .legendImg {
+  opacity: 1;
+  transition: 0.3s;
+}

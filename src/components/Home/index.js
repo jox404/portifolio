@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Abilities from "../Abilities";
 import About from "../About";
 import Contact from "../Contact";
+import Gallery from "../Gallery";
 import Intro from "../Intro";
 import NavBar from "../NavBar";
 import Projects from "../Projects";

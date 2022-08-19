@@ -1,11 +1,45 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import CardProject from "../CardProject";
 import "./style/projects.css";
 import projectsData from "../../data/projects.json";
+import Gallery from "../Gallery";
 
 const Projects = (props) => {
+  const [galleryModal, setGalleryModal] = useState(false);
+  const modalRef = useRef(null);
+  const ContainerRef = useRef(null);
+  const [indexGallery, setIndexGallery] = useState(0);
+
+  const handleCloseModal = (ref) => {
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (ref.current && !ref.current.contains(event.target)) {
+          setGalleryModal(false);
+        }
+      };
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [ref]);
+  };
+  handleCloseModal(modalRef);
+
   return (
     <div className="containerProjects">
+      <div
+        className="galerryContainer"
+        ref={ContainerRef}
+        style={{ display: `${galleryModal ? "flex" : "none"}` }}
+        ou
+      >
+        <div ref={modalRef}>
+          <Gallery
+            onClick={setGalleryModal}
+            images={projectsData[indexGallery].images}
+          />
+        </div>
+      </div>
       <div className="projects">
         <h1>Projetos</h1>
         <div className="cardsList">
@@ -13,11 +47,14 @@ const Projects = (props) => {
             return (
               <CardProject
                 key={index}
+                index={index}
                 name={project.name}
                 description={project.description}
                 link={project.link}
-                background={project.background}
                 technologies={project.technologies}
+                images={project.images}
+                setIndexGallery={setIndexGallery}
+                setGalleryModal={setGalleryModal}
               />
             );
           })}

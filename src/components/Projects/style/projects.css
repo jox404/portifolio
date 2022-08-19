@@ -3,10 +3,11 @@
 font-family: 'Ubuntu Mono', monospace; */
 .containerProjects {
   flex: 1;
-  background-color: #6272a4;
+  background-color: #44475a;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 700px;
 }
 .projects {
   flex: 1;
@@ -14,7 +15,7 @@ font-family: 'Ubuntu Mono', monospace; */
   max-width: 1366px;
 }
 .projects h1 {
-  color: #bd93f9;
+  color: #f8f8f2;
   text-align: center;
   font-family: "Ubuntu Mono", monospace;
   font-size: 50px;
@@ -25,4 +26,15 @@ font-family: 'Ubuntu Mono', monospace; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.galerryContainer {
+  position: absolute;
+  height: 660px;
+  background-color: rgba(40, 42, 54, 0.589);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-top: 40px;
+  z-index: 1;
 }
