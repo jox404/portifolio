@@ -2,7 +2,7 @@
   {
     "name": "WeatherApp",
     "description": "Um Aplicativo de previsão do tempo, nele você pode consutar informaçôes do tempo da sua cidade, como temperatura, força do vento, umidade do ar etc, tambem é possivel adicionar cidades a uma lista de favoritos",
-    "link": "",
+    "link": "https://github.com/jox404/weather-app",
     "images": [
       "https://i.ibb.co/g3BHPGz/Whats-App-Image-2022-08-18-at-8-07-41-PM.jpg",
       "https://i.ibb.co/zX45v1r/Whats-App-Image-2022-08-18-at-4-22-32-PM-1.jpg",
@@ -31,7 +31,7 @@
   {
     "name": "BolsaDeAtletas",
     "description": "Uma Landing page, para a apresentação e divulgação de um serviço. não posso divulgar o código, porque não tenho a autorização da empresa que contratou o serviço.",
-    "link": "private",
+    "link": null,
     "images": [
       "https://i.ibb.co/bds6KBK/Screenshot-from-2022-08-18-20-47-49.png",
       "https://i.ibb.co/PZ7pqCy/Screenshot-from-2022-08-18-20-47-59.png",

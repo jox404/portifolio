@@ -5,36 +5,55 @@ font-family: 'Ubuntu Mono', monospace; */
   flex: 1;
   background-color: #44475a;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: start;
   height: 700px;
 }
-.projects {
-  flex: 1;
-  padding: 20px 10px 20px 10px;
-  max-width: 1366px;
-}
-.projects h1 {
+.containerProjects h1 {
   color: #f8f8f2;
   text-align: center;
   font-family: "Ubuntu Mono", monospace;
   font-size: 50px;
-  margin: 0px;
   padding-bottom: 20px;
+  margin-top: 33px;
 }
+.projectsToCenter {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.projects {
+  width: 1367px;
+  padding: 20px 10px 20px 10px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .cardsList {
+  flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: inherit;
 }
 
 .galerryContainer {
   position: absolute;
-  height: 660px;
+  height: 680px;
   background-color: rgba(40, 42, 54, 0.589);
   width: 100%;
   justify-content: center;
   display: flex;
-  padding-top: 40px;
+  padding: 10px;
   z-index: 1;
+}
+.galerryContainer div {
+  width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .galerryContainer div {
+    width: 300px;
+  }
 }

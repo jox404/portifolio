@@ -9,25 +9,31 @@ font-family: 'Ubuntu Mono', monospace;
   display: flex;
   justify-content: center;
   background-color: #ffb86c;
+  flex-direction: column;
 }
-.abilites {
-  flex: 1;
-  max-width: 1366px;
-  display: block;
-  text-align: center;
-}
-.abilites h1 {
+
+.abilitesContainer h1 {
   color: #282a36;
   font-family: "Ubuntu Mono", monospace;
   font-size: 50px;
-  padding-bottom: 40px;
+  text-align: center;
 }
+
+.abilites {
+  flex: 1;
+  max-width: inherit;
+  display: block;
+  text-align: center;
+  overflow: auto;
+}
+
 .abilitesList {
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 200px;
+  min-width: 900px;
+  max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
-  width: 1300px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }

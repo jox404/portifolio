@@ -1,0 +1,78 @@
+.navigationContainer {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.navigationDrawer {
+  display: none;
+  margin-left: auto !important;
+  position: fixed;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom-left-radius: 10px;
+  border-bottom: #6272a4 solid 1px;
+}
+
+.navigationDrawer div {
+  text-align: center;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.linkDrawer {
+  flex-direction: column;
+  border-top: 1px #6272a4 solid;
+}
+
+.btnClose {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #6272a4;
+  height: 70px !important;
+}
+
+.btnClose svg {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+.linkDrawer a {
+  color: #f8f8f2;
+}
+.onClick {
+  transition: 0.5s;
+  background-color: #c2d1ff;
+}
+.unClick {
+  transition: 0.5s;
+  background-color: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .navigationDrawer {
+    display: flex;
+  }
+  .disable {
+    width: 0%;
+    transition: 0.5s;
+  }
+  .active {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .active {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .active {
+    width: 50%;
+  }
+}

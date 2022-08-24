@@ -5,7 +5,7 @@ import "./style/gallery.css";
 
 export default function Gallery(props) {
   return (
-    <Carousel width={800} showArrows={true}>
+    <Carousel showArrows={true}>
       {props.images.map((image, index) => {
         return (
           <div className="containerImg">

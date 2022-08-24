@@ -6,7 +6,9 @@ import { BsImages } from "react-icons/bs";
 
 const CardProject = (props) => {
   const redirectTo = (link) => {
-    window.open(link);
+    if (link) {
+      window.open(`${link}`);
+    }
   };
   const colorTechnology = (technology) => {
     switch (technology) {
@@ -79,7 +81,10 @@ const CardProject = (props) => {
           </h3>
         </span>
         <span className="visitPage">
-          <p>
+          <p
+            onClick={() => redirectTo(props.link)}
+            style={{ color: props.link === null ? "#606060" : "#f1fa8c" }}
+          >
             Visitar
             <FiExternalLink style={{ paddingTop: 2, paddingLeft: 2 }} />
           </p>

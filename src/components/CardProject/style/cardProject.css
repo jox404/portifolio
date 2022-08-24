@@ -5,13 +5,14 @@ font-family: 'Ubuntu Mono', monospace;
 
 */
 .cardContainer {
-  width: 270px;
   min-height: 430px;
   border-radius: 4px;
   padding: 1px 10px 15px 10px;
   background-color: #50fa7b;
   box-shadow: 5px 5px 7px #0000002c;
   position: relative;
+  width: 270px;
+  margin: 0px 10px;
 }
 .CardDescription {
   height: 150px;

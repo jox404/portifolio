@@ -12,8 +12,11 @@
 }
 
 .contact h1 {
+  text-align: center;
   color: #f1fa8c;
   margin: 25px 0px 25px 0px;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 50px;
 }
 .contactListLinks {
   display: flex;

@@ -5,10 +5,13 @@ import { CgWebsite } from "react-icons/cg";
 import { FiSmartphone } from "react-icons/fi";
 
 const Intro = (props) => {
+  const redirectTo = (link) => {
+    window.open(`${link}`);
+  };
   return (
     <div className="containerIntro">
       <div className="intro">
-        <div>
+        <div className="myDescription">
           <h1>Olá, Eu sou o João.</h1>
           <p>
             Front End Developer Junior,
@@ -20,7 +23,12 @@ const Intro = (props) => {
             <br />
             usando React e React Native.
           </p>
-          <button className="btnProjects">Projetos</button>
+          <button
+            className="btnProjects"
+            onClick={() => redirectTo("https://github.com/jox404")}
+          >
+            Projetos
+          </button>
         </div>
         <div className="profileImage">
           <img src={perfil} />

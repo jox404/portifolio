@@ -40,24 +40,26 @@ const Projects = (props) => {
           />
         </div>
       </div>
-      <div className="projects">
-        <h1>Projetos</h1>
-        <div className="cardsList">
-          {projectsData.map((project, index) => {
-            return (
-              <CardProject
-                key={index}
-                index={index}
-                name={project.name}
-                description={project.description}
-                link={project.link}
-                technologies={project.technologies}
-                images={project.images}
-                setIndexGallery={setIndexGallery}
-                setGalleryModal={setGalleryModal}
-              />
-            );
-          })}
+      <h1>Projetos</h1>
+      <div className="projectsToCenter">
+        <div className="projects">
+          <div className="cardsList">
+            {projectsData.map((project, index) => {
+              return (
+                <CardProject
+                  key={index}
+                  index={index}
+                  name={project.name}
+                  description={project.description}
+                  link={project.link}
+                  technologies={project.technologies}
+                  images={project.images}
+                  setIndexGallery={setIndexGallery}
+                  setGalleryModal={setGalleryModal}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

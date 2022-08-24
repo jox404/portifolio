@@ -34,6 +34,7 @@ font-family: 'Shadows Into Light', cursive; */
   display: flex;
   flex-direction: row;
   width: 150px;
+  cursor: pointer;
 }
 
 .links a {
@@ -67,4 +68,46 @@ font-family: 'Shadows Into Light', cursive; */
 .links:hover a {
   color: #282a36;
   transition: 0.5;
+}
+.btnMenuMobile {
+  display: none;
+}
+
+.btnMenuMobile svg {
+  font-size: 30px;
+  color: #f1fa8c;
+  padding: 5px;
+  border-radius: 50px;
+}
+.clickEffect {
+  background-color: rgba(255, 255, 255, 0.116);
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  align-self: center;
+  border-radius: 50%;
+}
+.clickEffectStart {
+  transition: 0.5s;
+  width: 40px;
+  height: 40px;
+}
+.clickEffectEnd {
+  background-color: rgba(255, 255, 255, 0);
+  transition: 1.5s;
+  width: 0px;
+  height: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+  .linksContainer {
+    display: none;
+  }
+  .btnMenuMobile {
+    display: flex;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

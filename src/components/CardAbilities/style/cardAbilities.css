@@ -3,6 +3,8 @@
   margin: 0px;
   display: flex;
   justify-content: center;
+  width: 100px;
+  height: 180px;
 }
 
 .card {

@@ -23,7 +23,8 @@ font-family: 'Ubuntu Mono', monospace; */
   margin-left: auto;
 }
 
-h1 {
+.aboutContainer h1 {
+  color: #282a36;
   font-family: "Ubuntu Mono", monospace;
   font-size: 50px;
   text-align: center;
@@ -33,8 +34,7 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  padding-right: 25px;
-  padding-top: 40px;
+  padding: 40px 25px 0px 25px;
   justify-content: start !important;
 }
 
@@ -52,4 +52,13 @@ h1 {
 }
 .imgProfile {
   width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+  .imgContainer {
+    display: none !important;
+  }
+  .about {
+    justify-content: space-around;
+  }
 }

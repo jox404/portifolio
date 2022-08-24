@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
 import Home from "./components/Home/index";
+import { DrawerProvider } from "./providers/drawerProvider";
 
 class App extends Component {
   render() {
-    return <Home />;
+    return (
+      <DrawerProvider>
+        <Home />
+      </DrawerProvider>
+    );
   }
 }
 
