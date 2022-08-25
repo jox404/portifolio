@@ -23,7 +23,6 @@ const NavigationDrawer = () => {
     await element.remove("unClick");
     await element.add("onClick");
     setTimeout(async () => {
-      console.log("chaou");
       await element.remove("onClick");
       await element.add("unClick");
       setActive(false);

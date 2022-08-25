@@ -9,7 +9,6 @@ const NavBar = (props) => {
     React.useContext(DrawerContext);
   const handleBgColor = () => {
     const scrollPosition = window.scrollY;
-    console.log(scrollPosition);
     switch (true) {
       case scrollPosition >= 0 && scrollPosition <= 429:
         return setBgColor("#282a36");
